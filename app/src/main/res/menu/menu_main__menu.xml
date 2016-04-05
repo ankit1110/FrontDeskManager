@@ -2,6 +2,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.ohmsoftwaresinc.com.frontdeskmanager.Main_Menu">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/motelprofile"
+        android:orderInCategory="100"
+        android:title="Motel Proofile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/empreg"
+        android:orderInCategory="100"
+        android:title="Employee Registration"
+        app:showAsAction="never" />
+
 </menu>

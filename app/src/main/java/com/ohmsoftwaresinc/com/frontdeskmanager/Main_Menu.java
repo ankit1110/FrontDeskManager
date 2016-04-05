@@ -1,21 +1,21 @@
 package com.ohmsoftwaresinc.com.frontdeskmanager;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 public class Main_Menu extends AppCompatActivity{
 
+    private android.support.v7.widget.Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main__menu);
+        toolbar=(android.support.v7.widget.Toolbar)findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+
 
 
     }
